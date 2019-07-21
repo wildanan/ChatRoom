@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+</head>
+    <body  onload="jono()">
+        <h1><i class="far fa-comments"></i> Welcome to Chatroom </h1>
+        <div id="show"></div>
+        <div id="boom"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="columnTop">
+
+                </div>
+                <div class="colTop2">
+                    <div class="nav">
+                        <h4><i class="fas fa-users" style="margin-right: 20px"></i>  Group Chat</h4>
+                        <div class="icon">
+                            <h3><i class="fas fa-video"></i><i class="fas fa-phone-alt"></i><i class="fas fa-ellipsis-v"></i></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="columnTop">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="column" >
+                    <p></p>
+                </div>
+                <div class="column2" >
+                    <div id="logs">
+                        <div id="loader"  style="text-align: center">
+                            <div class="lds-hourglass"></div>
+                            <p style="color: white">Loading..</p>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <textarea></textarea>
+                        <button type="button"><i class="far fa-paper-plane"></i>
+
+                        </button>
+                    </div>
+                </div>
+        
+                <div class="column">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="chat.json"></script>
+        <script src="main.js"></script>
+        <script src="https://kit.fontawesome.com/0ebc3bd0b1.js" ></script>
+    </body>
+</html>
